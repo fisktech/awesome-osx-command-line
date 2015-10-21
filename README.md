@@ -535,6 +535,11 @@ sudo pmset displaysleep 15
 sudo pmset sleep 30
 ```
 
+#### Lower the Time it Takes to Wake Your Computer From Sleep
+```bash
+sudo pmset -a standbydelay **NEW_VALUE**
+```
+
 #### Check System Sleep Idle Time
 ```bash
 sudo systemsetup -getcomputersleep
